@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A2BD6151C44372E008FC9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BD6141C44372E008FC9C7 /* AppDelegate.swift */; };
+		3A2BD6171C44372E008FC9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BD6161C44372E008FC9C7 /* ViewController.swift */; };
+		3A2BD61A1C44372E008FC9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BD6181C44372E008FC9C7 /* Main.storyboard */; };
+		3A2BD61C1C44372E008FC9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BD61B1C44372E008FC9C7 /* Assets.xcassets */; };
+		3A2BD61F1C44372E008FC9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2BD61D1C44372E008FC9C7 /* LaunchScreen.storyboard */; };
+		3A2BD62A1C44372E008FC9C7 /* parallaxerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BD6291C44372E008FC9C7 /* parallaxerTests.swift */; };
+		3A2BD6351C44372F008FC9C7 /* parallaxerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2BD6341C44372F008FC9C7 /* parallaxerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2BD6261C44372E008FC9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2BD6091C44372E008FC9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2BD6101C44372E008FC9C7;
+			remoteInfo = parallaxer;
+		};
+		3A2BD6311C44372F008FC9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2BD6091C44372E008FC9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2BD6101C44372E008FC9C7;
+			remoteInfo = parallaxer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A2BD6111C44372E008FC9C7 /* parallaxer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parallaxer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2BD6141C44372E008FC9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A2BD6161C44372E008FC9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A2BD6191C44372E008FC9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2BD61B1C44372E008FC9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2BD61E1C44372E008FC9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2BD6201C44372E008FC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2BD6251C44372E008FC9C7 /* parallaxerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parallaxerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2BD6291C44372E008FC9C7 /* parallaxerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parallaxerTests.swift; sourceTree = "<group>"; };
+		3A2BD62B1C44372E008FC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2BD6301C44372F008FC9C7 /* parallaxerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parallaxerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2BD6341C44372F008FC9C7 /* parallaxerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parallaxerUITests.swift; sourceTree = "<group>"; };
+		3A2BD6361C44372F008FC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2BD60E1C44372E008FC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD6221C44372E008FC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD62D1C44372F008FC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2BD6081C44372E008FC9C7 = {
+			isa = PBXGroup;
+			children = (
+				3A2BD6131C44372E008FC9C7 /* parallaxer */,
+				3A2BD6281C44372E008FC9C7 /* parallaxerTests */,
+				3A2BD6331C44372F008FC9C7 /* parallaxerUITests */,
+				3A2BD6121C44372E008FC9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2BD6121C44372E008FC9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2BD6111C44372E008FC9C7 /* parallaxer.app */,
+				3A2BD6251C44372E008FC9C7 /* parallaxerTests.xctest */,
+				3A2BD6301C44372F008FC9C7 /* parallaxerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2BD6131C44372E008FC9C7 /* parallaxer */ = {
+			isa = PBXGroup;
+			children = (
+				3A2BD6141C44372E008FC9C7 /* AppDelegate.swift */,
+				3A2BD6161C44372E008FC9C7 /* ViewController.swift */,
+				3A2BD6181C44372E008FC9C7 /* Main.storyboard */,
+				3A2BD61B1C44372E008FC9C7 /* Assets.xcassets */,
+				3A2BD61D1C44372E008FC9C7 /* LaunchScreen.storyboard */,
+				3A2BD6201C44372E008FC9C7 /* Info.plist */,
+			);
+			path = parallaxer;
+			sourceTree = "<group>";
+		};
+		3A2BD6281C44372E008FC9C7 /* parallaxerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2BD6291C44372E008FC9C7 /* parallaxerTests.swift */,
+				3A2BD62B1C44372E008FC9C7 /* Info.plist */,
+			);
+			path = parallaxerTests;
+			sourceTree = "<group>";
+		};
+		3A2BD6331C44372F008FC9C7 /* parallaxerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A2BD6341C44372F008FC9C7 /* parallaxerUITests.swift */,
+				3A2BD6361C44372F008FC9C7 /* Info.plist */,
+			);
+			path = parallaxerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2BD6101C44372E008FC9C7 /* parallaxer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2BD6391C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxer" */;
+			buildPhases = (
+				3A2BD60D1C44372E008FC9C7 /* Sources */,
+				3A2BD60E1C44372E008FC9C7 /* Frameworks */,
+				3A2BD60F1C44372E008FC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parallaxer;
+			productName = parallaxer;
+			productReference = 3A2BD6111C44372E008FC9C7 /* parallaxer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A2BD6241C44372E008FC9C7 /* parallaxerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2BD63C1C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxerTests" */;
+			buildPhases = (
+				3A2BD6211C44372E008FC9C7 /* Sources */,
+				3A2BD6221C44372E008FC9C7 /* Frameworks */,
+				3A2BD6231C44372E008FC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2BD6271C44372E008FC9C7 /* PBXTargetDependency */,
+			);
+			name = parallaxerTests;
+			productName = parallaxerTests;
+			productReference = 3A2BD6251C44372E008FC9C7 /* parallaxerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2BD62F1C44372F008FC9C7 /* parallaxerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2BD63F1C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxerUITests" */;
+			buildPhases = (
+				3A2BD62C1C44372F008FC9C7 /* Sources */,
+				3A2BD62D1C44372F008FC9C7 /* Frameworks */,
+				3A2BD62E1C44372F008FC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2BD6321C44372F008FC9C7 /* PBXTargetDependency */,
+			);
+			name = parallaxerUITests;
+			productName = parallaxerUITests;
+			productReference = 3A2BD6301C44372F008FC9C7 /* parallaxerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2BD6091C44372E008FC9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = withcovertvalue;
+				TargetAttributes = {
+					3A2BD6101C44372E008FC9C7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5Z75W2QT9C;
+					};
+					3A2BD6241C44372E008FC9C7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5Z75W2QT9C;
+						TestTargetID = 3A2BD6101C44372E008FC9C7;
+					};
+					3A2BD62F1C44372F008FC9C7 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5Z75W2QT9C;
+						TestTargetID = 3A2BD6101C44372E008FC9C7;
+					};
+				};
+			};
+			buildConfigurationList = 3A2BD60C1C44372E008FC9C7 /* Build configuration list for PBXProject "parallaxer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2BD6081C44372E008FC9C7;
+			productRefGroup = 3A2BD6121C44372E008FC9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2BD6101C44372E008FC9C7 /* parallaxer */,
+				3A2BD6241C44372E008FC9C7 /* parallaxerTests */,
+				3A2BD62F1C44372F008FC9C7 /* parallaxerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2BD60F1C44372E008FC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2BD61F1C44372E008FC9C7 /* LaunchScreen.storyboard in Resources */,
+				3A2BD61C1C44372E008FC9C7 /* Assets.xcassets in Resources */,
+				3A2BD61A1C44372E008FC9C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD6231C44372E008FC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD62E1C44372F008FC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2BD60D1C44372E008FC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2BD6171C44372E008FC9C7 /* ViewController.swift in Sources */,
+				3A2BD6151C44372E008FC9C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD6211C44372E008FC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2BD62A1C44372E008FC9C7 /* parallaxerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2BD62C1C44372F008FC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2BD6351C44372F008FC9C7 /* parallaxerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2BD6271C44372E008FC9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2BD6101C44372E008FC9C7 /* parallaxer */;
+			targetProxy = 3A2BD6261C44372E008FC9C7 /* PBXContainerItemProxy */;
+		};
+		3A2BD6321C44372F008FC9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2BD6101C44372E008FC9C7 /* parallaxer */;
+			targetProxy = 3A2BD6311C44372F008FC9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A2BD6181C44372E008FC9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2BD6191C44372E008FC9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2BD61D1C44372E008FC9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2BD61E1C44372E008FC9C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A2BD6371C44372F008FC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A2BD6381C44372F008FC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2BD63A1C44372F008FC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = parallaxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A2BD63B1C44372F008FC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = parallaxer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A2BD63D1C44372F008FC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = parallaxerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parallaxer.app/parallaxer";
+			};
+			name = Debug;
+		};
+		3A2BD63E1C44372F008FC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = parallaxerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parallaxer.app/parallaxer";
+			};
+			name = Release;
+		};
+		3A2BD6401C44372F008FC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = parallaxerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = parallaxer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A2BD6411C44372F008FC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = parallaxerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.withconvertvalue.parallaxerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = parallaxer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2BD60C1C44372E008FC9C7 /* Build configuration list for PBXProject "parallaxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2BD6371C44372F008FC9C7 /* Debug */,
+				3A2BD6381C44372F008FC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2BD6391C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2BD63A1C44372F008FC9C7 /* Debug */,
+				3A2BD63B1C44372F008FC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A2BD63C1C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2BD63D1C44372F008FC9C7 /* Debug */,
+				3A2BD63E1C44372F008FC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A2BD63F1C44372F008FC9C7 /* Build configuration list for PBXNativeTarget "parallaxerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2BD6401C44372F008FC9C7 /* Debug */,
+				3A2BD6411C44372F008FC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2BD6091C44372E008FC9C7 /* Project object */;
+}
